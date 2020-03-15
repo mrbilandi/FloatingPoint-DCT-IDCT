@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "G:/Projects/ISE/ML507/DCT/RMDCT/rm.xst" -ofn "G:/Projects/ISE/ML507/DCT/RMDCT/rm.syr" 
+xst -intstyle ise -ifn "G:/Projects/ISE/ML507/DCT/RMDCT/rm.xst" -ofn "G:/Projects/ISE/ML507/DCT/RMDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/ML605/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/ML605/Sources/RMDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k70t-fbg676-1 rm.ngc rm.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o rm_map.ncd rm.ngd rm.pcf 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k70t-fbg676-1 rm.ngc rm.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o rm_map.ncd rm.ngd rm.pcf 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMDCT/rm.syr" 

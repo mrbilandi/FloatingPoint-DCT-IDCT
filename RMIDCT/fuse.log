@@ -1,0 +1,58 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FinalMUTThesis/Final/RMIDCT/tf_idct_isim_beh.exe" -prj "D:/FinalMUTThesis/Final/RMIDCT/tf_idct_beh.prj" "work.tf_idct" "work.glbl" 
+ISim P.28xd (signature 0x1048c146)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/FinalMUTThesis/Final/RMIDCT/tf_idct.v" into library work
+Analyzing Verilog file "e:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/AddSubB/encoder.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/AddSubB/BShifter23_Left.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/AddSubB/BShifter23.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/Multiplier/FPMul.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/AddSubB/AddSub.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate2/rotate2.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/rotate1/rotate1.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/butterfly/butterfly.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/reg8_32_en/reg32_en.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/reg8_32/register/register.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage3/stage3.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage2/stage2.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage1/stage1.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/stage0/stage0.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/reg8_32_en/reg8_32_en.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/reg8_32/reg8_32.vhd" into library work
+Parsing VHDL file "D:/FinalMUTThesis/Final/RMIDCT/D1_IDCT8.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105336 KB
+Fuse CPU Usage: 685 ms
+Compiling module tf_idct
+WARNING:Simulator:918 - "D:/FinalMUTThesis/Final/RMIDCT/tf_idct.v" Line 95. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf()
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity reg32_en [reg32_en_default]
+Compiling architecture structural of entity reg8_32_en [reg8_32_en_default]
+Compiling package numeric_std
+Compiling architecture behavioral of entity FPMul [fpmul_default]
+Compiling architecture rtl of entity BShifter23_Right [bshifter23_right_default]
+Compiling architecture rtl of entity encoder [encoder_default]
+Compiling architecture rtl of entity BShifter23_Left [bshifter23_left_default]
+Compiling architecture behavioral of entity AddSub [addsub_default]
+Compiling architecture structural of entity rotate1 [rotate1_default]
+Compiling architecture structural of entity stage3 [stage3_default]
+Compiling architecture behavioral of entity reg32 [reg32_default]
+Compiling architecture structural of entity reg8_32 [reg8_32_default]
+Compiling architecture structural of entity rotate2 [rotate2_default]
+Compiling architecture structural of entity butterfly [butterfly_default]
+Compiling architecture structural of entity stage2 [stage2_default]
+Compiling architecture structural of entity stage1 [stage1_default]
+Compiling architecture structural of entity stage0 [stage0_default]
+Compiling architecture structural of entity rm [rm_default]
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 37 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/FinalMUTThesis/Final/RMIDCT/tf_idct_isim_beh.exe
+Fuse Memory Usage: 122020 KB
+Fuse CPU Usage: 1123 ms

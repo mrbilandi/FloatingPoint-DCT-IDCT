@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "G:/Projects/ISE/ML507/DCT/RMIDCT/rm.xst" -ofn "G:/Projects/ISE/ML507/DCT/RMIDCT/rm.syr" 
+xst -intstyle ise -ifn "G:/Projects/ISE/ML507/DCT/RMIDCT/rm.xst" -ofn "G:/Projects/ISE/ML507/DCT/RMIDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/ML605/Sources/RMIDCT/rm.xst" -ofn "D:/MUTProject/ML605/Sources/RMIDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/ML605/Sources/RMIDCT/rm.xst" -ofn "D:/MUTProject/ML605/Sources/RMIDCT/rm.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfig/Sources/RMIDCT/rm.xst" -ofn "D:/MUTProject/KC705/PartialReconfig/Sources/RMIDCT/rm.syr" 

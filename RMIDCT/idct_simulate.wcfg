@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/FinalMUTThesis/Final/RMIDCT/tf_idct_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tf_idct" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tf_idct/o0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o5[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o6[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/o7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o7[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i5[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i6[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i7[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/dct_in_file" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dct_in_file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dct_in_file[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/dct_out_file" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dct_out_file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dct_out_file[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/DctData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DctData[63:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">DctData[63:0,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/DctResult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DctResult[63:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">DctResult[63:0,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf_idct/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FinalMUTThesis/Final/RMIDCT/tf_idct_isim_beh.exe" -prj "D:/FinalMUTThesis/Final/RMIDCT/tf_idct_beh.prj" "work.tf_idct" "work.glbl" 
